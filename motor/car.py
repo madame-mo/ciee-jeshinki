@@ -15,12 +15,12 @@ def right_turn():
 
   drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
-def forward_move():
+def forward():
   drive.set_motor_direction(front_left=-1,rear_left=-1,front_right=-1,rear_right=-1)
 
   drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
-def backward_move():
+def backward():
   drive.set_motor_direction(front_left=1,rear_left=1,front_right=1,rear_right=1)
 
   drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
@@ -28,11 +28,11 @@ def backward_move():
 
 left_turn()
 time.sleep(1)
-forward_move()
+forward()
 time.sleep(1)
 right_turn()
 time.sleep(1)
-backward_move()
+backward()
 time.sleep(1)
 stop()
 drive.close()
