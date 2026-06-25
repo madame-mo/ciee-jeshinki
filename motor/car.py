@@ -25,6 +25,7 @@ def backward_move():
 
   drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
+# we're testing yayyyyyyyyy
 
 left_turn()
 time.sleep(1)
@@ -35,4 +36,5 @@ time.sleep(1)
 backward_move()
 time.sleep(1)
 stop()
+
 drive.close()
