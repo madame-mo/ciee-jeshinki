@@ -31,6 +31,7 @@ def diagonal_L():
 
         drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
+<<<<<<< HEAD:motor/car.py
 def diagonal_R():
         drive.set_motor_direction(front_left=0,rear_left=-1,front_right=-1,rear_right=0)
 
@@ -78,3 +79,5 @@ sideway_L()
 time.sleep(1)
 stop()
 drive.close()
+=======
+>>>>>>> 4dea2e7 (organizing and making main directory):code/motor/car.py
