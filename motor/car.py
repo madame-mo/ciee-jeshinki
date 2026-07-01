@@ -25,16 +25,22 @@ def backward_move():
 
   drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
-print("testing 123")
 
-left_turn()
-time.sleep(1)
-forward_move()
-time.sleep(1)
-right_turn()
-time.sleep(1)
-backward_move()
-time.sleep(1)
-stop()
+if input("W"):
+  forward_move()
+  time.sleep(1)
+elif input("A"):
+  
+# print("testing 123")
 
-drive.close()
+#left_turn()
+#time.sleep(1)
+#forward_move()
+#time.sleep(1)
+#right_turn()
+#time.sleep(1)
+#backward_move()
+#time.sleep(1)
+#stop()
+
+#drive.close()
