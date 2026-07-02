@@ -1,5 +1,7 @@
-from code/motor/car.py import *
-from code/mpu/mpu_checking.py import *
+from code/sensors/car.py import *
+from code/sensors/mpu_checking.py import *
+from code/sensors/computer_vision.py import *
+from gpiozero import OutputDevice
 import time
 
 while True:
