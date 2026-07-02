@@ -4,7 +4,7 @@ from mpu6050 import mpu6050
 import time
 import math
 
-#if is over 1.5 the buzzer will bee
+#if is over 1.5 the buzzer will beep
 SENSITIVITY = 1.5
 
 # Create the MPU6050 object
