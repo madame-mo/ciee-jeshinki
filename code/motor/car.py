@@ -59,27 +59,7 @@ def sideway_L():
         drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
 #This the code for testing the motor
-left_turn()
-time.sleep(1)
-forward()
-time.sleep(1)
-right_turn()
-time.sleep(1)
-backward()
-time.sleep(1)
-diagonal_L()
-time.sleep(1)
-diagonal_R()
-time.sleep(1)
-diagonal_BL()
-time.sleep(1)
-diagonal_BR()
-time.sleep(1)
-sideway_R()
-time.sleep(1)
-sideway_L()
-time.sleep(1)
-stop()
-drive.close()
-=======
->>>>>>> 4dea2e7 (organizing and making main directory):code/motor/car.py
+
+
+#stop()
+#drive.close()
