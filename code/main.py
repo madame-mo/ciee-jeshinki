@@ -15,17 +15,15 @@ while True:
     # Wait for 1 second
     time.sleep(1)
 
-left_turn()
-time.sleep(1)
-forward_move()
-time.sleep(1)
-right_turn()
-time.sleep(1)
-backward_move()
-time.sleep(1)
-stop()
+right_turn();
 
-#drive.close()
+time.sleep(1)
+
+forward();
+
+time.sleep(1)
+
+drive.close()
 
 #if movement detected
 #buzzer beep on
