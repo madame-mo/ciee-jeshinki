@@ -1,3 +1,4 @@
+# We define the direction of the robot movements
 from motor import MotorController
 import time
 
@@ -57,6 +58,7 @@ def sideway_L():
 
         drive.set_motors(front_left=1000,rear_left=1000,front_right=1000,rear_right=1000)
 
+#This the code for testing the motor
 left_turn()
 time.sleep(1)
 forward()
