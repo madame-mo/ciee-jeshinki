@@ -1,5 +1,5 @@
 from code/motor/car.py import *
-from code/mpu/mpu_checking.py import *
+from code/mpu/mpu.py import *
 import time
 
 while True:
