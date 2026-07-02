@@ -1,8 +1,10 @@
+#This is mpu6050 sensor
 from mpu6050 import mpu6050
 from mpu6050 import mpu6050
 import time
 import math
 
+#if is over 1.5 the buzzer will bee
 SENSITIVITY = 1.5
 
 # Create the MPU6050 object
@@ -24,7 +26,7 @@ def read_sensor_data():
 
     return accelerometer_data, gyroscope_data
 
-
+#This is definding is shaking or not
 def is_shaking(sensitivity):
     """
     0.2 - very sensitive
