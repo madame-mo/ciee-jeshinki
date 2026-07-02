@@ -12,9 +12,6 @@ def read_sensor_data():
     # Read the gyroscope values
     gyroscope_data = mpu6050.get_gyro_data()
 
-    # Read temp
-#    temperature = mpu6050.get_temp()
-
     return accelerometer_data, gyroscope_data 
 #, temperature
 
