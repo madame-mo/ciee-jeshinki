@@ -4,16 +4,22 @@ import time
 
 while True:
 
-    # Read the sensor data
-    accelerometer_data, gyroscope_data = read_sensor_data()
+    accelerometer_data = read_sensor_data()
 
-    # Print the sensor data
-    print("Accelerometer data:", accelerometer_data)
-    print("Gyroscope data:", gyroscope_data)
- #   print("Temp:", temperature)
+    print("Accelerometer:", accelerometer_data)
+    #we dont gotta use the gyroscope data
+    #print("Gyroscope:", gyroscope_data)
 
-    # Wait for 1 second
-    time.sleep(1)
+    if is_shaking(SENSITIVITY):
+        print(" SHAKING DETECTED! ")
+        #RUN THE METHOD TO DETECT THE TABLE!!
+    else:
+        print("Not shaking.")
+        #nothing
+
+    print()
+
+    time.sleep(0.1)
 
 right_turn();
 
